@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="cloth.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightsteelblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:darkslategray;
+}
+</style>
 </head>
 <body>
 
-<div class="menu-container">
-    <a href = "index.html"><li class ="list"> HOME</li></a>
-    <a href = "towels.html"><li class ="list"> TOWELS</li></a>
-    <a href = "bedsheets.html"><li class ="list"> BEDSHEETS</li></a>
-    <a href = "curtain.html"><li class ="list"> CURTAIN</li></a>
-
-</div>
-
-<div class="header">
-
-  <div class="left">
-
-  </div>
-
-  <div class="right">
-    <h1> Hello everyone!</h1>
-    <p> We sell stuff. </p>
-  </div>
-
-</div>
-
-<div class="bone-container">
-
-  <div class="bones">
-    <h2>Han</h2>
-  </div>
-
-
-</div>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="towels.html">Towels</a></li>
+  <li><a href="curtain.html">Curtain</a></li>
+  <li><a href="bedsheets.html">Bedsheets</a></li>
+</ul>
 
 </body>
 </html>
