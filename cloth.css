@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family:Arial;
   /*css variables*/
   --themecolor: #f5b8f4;
 }
@@ -14,7 +14,7 @@
 }
 
 .list{
-  flex-grow: 2;
+  flex-grow: 1;
   text-align: center;
   padding: 20px 0;
 }
