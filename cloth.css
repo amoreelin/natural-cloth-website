@@ -13,7 +13,7 @@
   background-color: var(--themecolor);
 }
 
-.menu-item{
+.list{
   border: 1px solid black;
   flex-grow: 1;
   text-align: center;
