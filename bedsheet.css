@@ -1,9 +1,13 @@
 h1{
+  margin: 20px;
+  padding: 50px;
+  background-image: url("blaynk_resize_md.jpg");
   background-color: #b4b4b4;
   color: black;
+
   text-align: center;
-  font-size: 300%;
-  font-family: cursive;
+  font-size: 250%;
+  font-family:cursive;
 
 
 }
