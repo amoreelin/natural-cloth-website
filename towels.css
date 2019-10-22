@@ -8,7 +8,7 @@
 }
 
 .towel {
-    color: lightsteelblue;
+    color: rgb(78, 114, 114);
     margin: 20px;
     padding: 50px;
 
@@ -17,16 +17,47 @@
     text-align: center;
   }
 
-  .samples-container{
+  .samples-container1{
     display: flex;
     justify-content: center;
   }
 
-  .sample-item{
+  .sample-item1{
     flex-grow: 1;
     text-align: center;
     color: rgb(125, 153, 190);
-    padding: 20px 0;
+    padding: 50px 0;
+    margin: 20px;
+    /*padding: top/bottom left/right */
+  
+  }
+
+  .samples-container2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sample-item2{
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(125, 153, 190);
+    padding: 50px 0;
+    margin: 20px;
+    /*padding: top/bottom left/right */
+  
+  }
+
+  .samples-container3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sample-item3{
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(125, 153, 190);
+    padding: 50px 0;
+    margin: 20px;
     /*padding: top/bottom left/right */
   
   }
