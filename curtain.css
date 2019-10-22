@@ -17,3 +17,12 @@
   padding: 50px;
 
 }
+
+.samples-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sample-item{
+  text-align: center;
+}
