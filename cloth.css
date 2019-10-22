@@ -1,0 +1,21 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  /*css variables*/
+  --themecolor: #006400;
+}
+.menu-container{
+  display: flex;
+  justify-content: center;
+  /* background-color: lightblue; */
+  background-color: var(--themecolor);
+}
+
+.menu-item{
+  border: 1px solid black;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px 0;
+}
