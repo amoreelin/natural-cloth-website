@@ -16,3 +16,9 @@
    font-size: 200%;
    font-weight: lighter;
    text-align:center;
+
+ }
+ .samples-container1{
+   display: flex;
+   justify-content: right;
+ }
