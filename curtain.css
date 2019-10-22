@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: Arial;
-    --themecolor: #f8cbba;
+    --themecolor: #f7cac9;
 }
 
 .curtain {
-  color: brown;
+  color: #fa87c7;
   margin: 20px;
   padding: 50px;
 
-  background-color: #f8cbba;
+  background-color: #f9dbe1;
   font-size: 300%;
   text-align: center;
   margin: 20px;
