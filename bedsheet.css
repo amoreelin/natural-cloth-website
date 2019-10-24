@@ -15,7 +15,7 @@
    color: black;
    text-align: center;
    font-size: 160%;
-   font-family:cursive;
+   font-family:Arial;
 
 
  }
@@ -31,9 +31,24 @@
    display: flex;
    justify-content: center;
  }
+ 
  .sample-item1{
+   flex-grow: 1;
    font-family:cursive;
    text-align:center;
+   color: rgb(125, 153, 190);
+   padding: 50px 0;
+   margin: 20px;
+ }
+
+ .sample-container2{
+   display: flex;
+   justify-content: center;
+ }
+
+ .sample-item2{
+   flex-grow: 1;
+   text-align: center;
    color: rgb(125, 153, 190);
    padding: 50px 0;
    margin: 20px;
