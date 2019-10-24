@@ -27,6 +27,9 @@
   margin: 20px;
   color: #9614b3;
 }
+.sample-item h2{
+  margin-bottom: 20px;
+}
 .right{
   margin: 30px
 }
