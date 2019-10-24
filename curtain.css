@@ -22,3 +22,9 @@
 .sample-item{
   text-align: center;
 }
+.right{
+  margin: 30px
+}
+.sample-item{
+  margin: 20px
+}
