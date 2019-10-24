@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial ;
+    /*css variables*/
+  }
+
+.web-title {
+    color: rgb(78, 114, 114);
+    margin: 20px;
+    padding: 30px;
+
+    background-color: beige;
+    font-size: 300%;
+    text-align: center; 
+}
