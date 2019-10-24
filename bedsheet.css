@@ -18,7 +18,14 @@
    text-align:center;
 
  }
- .samples-container1{
+ .samples-container{
    display: flex;
-   justify-content: right;
+   justify-content: center;
+ }
+ .sample-item1{
+   font-family:cursive;
+   text-align:center;
+   color: rgb(125, 153, 190);
+   padding: 50px 0;
+   margin: 20px;
  }
