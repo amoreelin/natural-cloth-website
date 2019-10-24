@@ -27,11 +27,11 @@
    text-align:center;
 
  }
- .samples-container{
+ .samples-container1{
    display: flex;
    justify-content: center;
  }
- 
+
  .sample-item1{
    flex-grow: 1;
    font-family:cursive;
