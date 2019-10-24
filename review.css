@@ -1,0 +1,11 @@
+.review{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  color: #745974;
+  background-color: #f2d7c6;
+  font-size:300%;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
