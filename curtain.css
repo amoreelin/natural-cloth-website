@@ -6,6 +6,9 @@
 }
 
 .curtain {
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   color: #fa87c7;
   background-color: #f9dbe1;
   font-size: 300%;
