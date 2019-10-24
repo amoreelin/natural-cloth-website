@@ -21,10 +21,9 @@
 }
 .sample-item{
   text-align: center;
+  margin: 20px;
+  color: #9614b3;
 }
 .right{
   margin: 30px
-}
-.sample-item{
-  margin: 20px
 }
