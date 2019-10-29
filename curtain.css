@@ -33,3 +33,13 @@
 .right{
   margin: 30px
 }
+.footer{
+position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding:20px;
+   background-color:lightslategray;
+   color: black;
+   text-align: left;
+}

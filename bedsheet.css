@@ -66,9 +66,23 @@
  }
 
  .sample-item3{
+<<<<<<< HEAD
+
+ }
+ .footer{
+ position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding:20px;
+    background-color:lightslategray;
+    color: black;
+    text-align: left;
+=======
    flex-grow: 1;
    text-align: center;
    color: rgb(125, 153, 190);
    padding: 50px 0;
    margin: 20px;
+>>>>>>> 8e963579a0e7e03768272e0cb605bc7ae5517ee3
  }
