@@ -9,14 +9,14 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    color: rgb(117, 220, 133);
     margin: 20px;
     padding: 50px;
-    background-color:rgb(126, 168, 187) ;
-    color: rgb(117, 220, 133);
-    text-align: center;
+
+    background-color:rgb(126, 168, 187);
     font-size: 160%;
     font-family:Arial;
-
+    text-align: center;
 
  }
  p{
@@ -34,7 +34,6 @@
 
  .sample-item1{
    flex-grow: 1;
-   font-family:cursive;
    text-align:center;
    color: rgb(125, 153, 190);
    padding: 50px 0;
@@ -60,5 +59,9 @@
  }
 
  .sample-item3{
-   
+   flex-grow: 1;
+   text-align: center;
+   color: rgb(125, 153, 190);
+   padding: 50px 0;
+   margin: 20px;
  }
