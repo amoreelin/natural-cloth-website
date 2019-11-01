@@ -28,6 +28,13 @@
    text-align:center;
 
  }
+
+ p2{
+   color: slateblue;
+   justify-content: center;
+   text-align: center;
+ }
+
  .samples-container1{
    display: flex;
    justify-content: center;
