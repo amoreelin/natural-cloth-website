@@ -17,6 +17,10 @@
   border-width: thin;
 }
 
+.footer p {
+  margin: 0;
+}
+
 .footer{
 position:fixed;
    left: 0;
