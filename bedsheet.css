@@ -30,54 +30,24 @@
 
  }
 
- .samples-container1
+ .samples-container
  {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   margin: 0px;
  }
 
- .sample-item1
+ .sample-item
  {
    flex-grow: 1;
    text-align:center;
    color: rgb(125, 153, 190);
    padding: 20px 0;
-   margin: 20px;
+   margin: 10px;
  }
 
- .sample-container2
- {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
- }
 
- .sample-item2
- {
-   flex-grow: 1;
-   text-align: center;
-   color: rgb(125, 153, 190);
-   padding: 20px 0;
-   margin: 20px;
- }
-
- .samples-container3
- {
-   display: flex;
-   flex-wrap; wrap;
-   justify-content: center;
- }
-
- .sample-item3
- {
-   flex-grow: 1;
-   text-align: center;
-   color: rgb(125, 153, 190);
-   padding: 20px 0;
-   margin: 20px;
-
- }
  .footer{
    position:fixed;
     left: 0;
@@ -88,5 +58,3 @@
     color: black;
     text-align: left;
  }
-
- 
