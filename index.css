@@ -7,11 +7,14 @@
   }
 
 .web-title {
-    color: rgb(78, 114, 114);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    color:beige;
     margin: 20px;
     padding: 30px;
 
-    background-color: beige;
+    background-color: rgb(79,113,94);
     font-size: 300%;
     text-align: center;
 }
