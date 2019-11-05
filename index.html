@@ -1,100 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="index.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fullscreen.css">
+  <meta charset="utf-8">
+
 </head>
-
-
-
 <body>
-<!-- HEADER -->
-<div class="web-title">
-  <h2>ORGANIC CLOTH</h2>
-</div>
 
-<!-- NAVIGATION BAR -->
-<ul>
-  <li><a class="active">  Home</a></li>
-  <li><a href="towels.html">Towels</a></li>
-  <li><a href="curtain.html">Curtains</a></li>
-  <li><a href="bedsheets.html">Bedsheets</a></li>
-  <li><a href="review.html">Customer Reviews</a></li>
-</ul>
-<div class="slideshow-container">
+<div class="bg-container">
 
-<!-- SLIDESHOW -->
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="images/all.png" style="width:100%">
-  <div class="text">TOWELS </div>
-</div>
+  <div class="bg-title"> organic cloth </div>
+  <div class="bg-tagline">towels / curtains / bedsheets </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="images/blaynk_resize_md.jpg" style="width:100%">
-  <div class="text">BEDSHEETS</div>
-</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="images/curtains-home.jpg" style="width:100%">
-  <div class="text">CURTAINS</div>
-</div>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </head>
+  <body>
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-<!-- SLIDESHOW JAVASCRIPT -->
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-</body>
-
-<div class="footer">
-    <p>contacts: (+886) 23491314</p>
-    <p>location: Baker Street 221b</p>
-
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="home.html">Home</a>
+      <a href="towels.html">Towels</a>
+      <a href="curtain.html">Curtains</a>
+      <a href="bedsheets.html">Bedsheets</a>
+      <a href="review.html">Customer Reviews</a>
+    </div>
   </div>
-  <div class="snow">
-  <style>
+  <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; explore </span>
 
-  </style>
-  <p>
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+  </body>
+  </html>
+
+
+</div>
+
+
 </body>
 </html>
