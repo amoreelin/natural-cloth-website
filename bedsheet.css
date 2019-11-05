@@ -9,7 +9,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    color: rgb(117, 220, 133);
+    color: rgb(78, 114, 114);
     margin: 20px;
     padding: 50px;
 
@@ -19,59 +19,63 @@
     text-align: center;
 
  }
-<<<<<<< HEAD
- p{
-=======
- .tagline{
->>>>>>> a9ec6d1971eb207b727318f18ae60906e50dc577
+
+.tagline{
    color: rgb(172, 145, 133);
    background-color: #f0f0f0;
    font-family:cursive;
-   font-size: 200%;
+   font-size: 100%;
    font-weight: lighter;
    text-align:center;
 
  }
 
- p2{
-   color: slateblue;
-   justify-content: center;
-   text-align: center;
- }
-
- .samples-container1{
+ .samples-container1
+ {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
  }
 
- .sample-item1{
+ .sample-item1
+ {
    flex-grow: 1;
    text-align:center;
    color: rgb(125, 153, 190);
-   padding: 50px 0;
+   padding: 20px 0;
    margin: 20px;
  }
 
- .sample-container2{
+ .sample-container2
+ {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
  }
 
- .sample-item2{
+ .sample-item2
+ {
    flex-grow: 1;
    text-align: center;
    color: rgb(125, 153, 190);
-   padding: 50px 0;
+   padding: 20px 0;
    margin: 20px;
  }
 
- .samples-container3{
+ .samples-container3
+ {
    display: flex;
+   flex-wrap; wrap;
    justify-content: center;
  }
 
- .sample-item3{
-
+ .sample-item3
+ {
+   flex-grow: 1;
+   text-align: center;
+   color: rgb(125, 153, 190);
+   padding: 20px 0;
+   margin: 20px;
 
  }
  .footer{
